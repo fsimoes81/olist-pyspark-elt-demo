@@ -1,0 +1,6 @@
+.venv
+.vscode
+/data/bronze/
+/data/gold/
+/data/silver/
+/data/stage/
