@@ -1,5 +1,6 @@
 .venv
 .vscode
+.qdrant-initialized
 /data/bronze/
 /data/gold/
 /data/silver/
