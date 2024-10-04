@@ -12,6 +12,7 @@ pyspark = "^3.5.3"
 delta-spark = "^3.2.1"
 duckdb = "^1.1.1"
 deltalake = "^0.20.1"
+papermill = "^2.6.0"
 
 
 [tool.poetry.group.dev.dependencies]
