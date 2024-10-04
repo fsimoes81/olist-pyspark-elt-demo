@@ -50,16 +50,16 @@ def get_silver_layer_notebooks(silver_nbs_path: str) -> List[str]:
 
 def get_gold_layer_notebooks(gold_nbs_path: str) -> List[str]:
     dim_notebooks = [
-        'slv_gld_dim_customer.ipynb',
-        'slv_gld_dim_geolocation.ipynb',
-        'slv_gld_dim_products.ipynb',
-        'slv_gld_dim_sellers.ipynb',
+        'dim/slv_gld_dim_customer.ipynb',
+        'dim/slv_gld_dim_geolocation.ipynb',
+        'dim/slv_gld_dim_products.ipynb',
+        'dim/slv_gld_dim_sellers.ipynb',
     ]
     fct_notebooks = [
-        'slv_gld_fct_order_items.ipynb',
-        'slv_gld_fct_order_payments.ipynb',
-        'slv_gld_fct_order_reviews.ipynb',
-        'slv_gld_fct_orders.ipynb',
+        'fct/slv_gld_fct_order_items.ipynb',
+        'fct/slv_gld_fct_order_payments.ipynb',
+        'fct/slv_gld_fct_order_reviews.ipynb',
+        'fct/slv_gld_fct_orders.ipynb',
     ]
     return get_notebooks(gold_nbs_path, dim_notebooks + fct_notebooks)
 
