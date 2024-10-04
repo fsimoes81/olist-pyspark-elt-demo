@@ -1,7 +1,11 @@
 .venv
 .vscode
 .qdrant-initialized
-/data/bronze/*
-/data/gold/*
-/data/silver/*
-/data/stage/*
+data/bronze/*
+data/gold/*
+data/silver/*
+data/stage/*
+!data/bronze/.gitkeep
+!data/gold/.gitkeep
+!data/silver/.gitkeep
+!data/stage/.gitkeep
