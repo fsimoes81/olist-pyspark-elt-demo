@@ -9,3 +9,6 @@ data/stage/*
 !data/gold/.gitkeep
 !data/silver/.gitkeep
 !data/stage/.gitkeep
+notebooks/bronze/temp/
+notebooks/silver/temp/
+notebooks/gold/temp/
